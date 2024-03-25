@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var footer = document.querySelector('footer');
         var scrollPosition = window.innerHeight + window.pageYOffset;
         
-        // Verificar se o scroll está no final da página
+        // Verifica se o scroll está no final da página
         if (scrollPosition >= document.body.offsetHeight) {
             footer.style.display = 'block';
         } else {
